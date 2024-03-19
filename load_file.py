@@ -175,13 +175,3 @@ class FileLoader:
 class FileInfo:
     def __init__(self, path: str, size: int, encoding: str) -> None:
         self.path, self.size, self.encoding = path, size, encoding
-
-
-class CloudTransfer:
-    '''
-    Transfers files to a cloud storage provider (Sharepoint, Google Drive, etc.).
-    Maintains file format.
-    '''
-
-    def __init__(self) -> None:
-        pass
