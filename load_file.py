@@ -4,7 +4,6 @@ import sqlite3
 import pandas as pd
 import string
 
-
 class FileLoader:
     '''
     Class to load file(s) from xlsx and csv into sql db.
